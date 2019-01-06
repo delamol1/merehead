@@ -7,7 +7,6 @@ import { selectPage } from "../actions/index"
 class UserList extends Component {
 
     renderList() {
-        console.log(this.props)
         const { currentPage } = this.props;
         const indexOfLastTodo = currentPage * 5;
         const indexOfFirstTodo = indexOfLastTodo - 5;
